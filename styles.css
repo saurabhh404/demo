@@ -16,9 +16,18 @@ font-family: 'Playfair Display', serif; */
     font-size: 0.9rem;
 }
 
+.nav-item {
+    font-family: 'Comfortaa', cursive;
+    padding: 0 20px;
+}
+
+.nav-item:hover {
+    font-weight: bold;
+}
+
 #title,
 #title .jumbotron {
-    background-image: linear-gradient(to right, floralwhite, ghostwhite);
+    background-color: floralwhite;
 }
 
 #title .jumbotron {
@@ -34,23 +43,22 @@ font-family: 'Playfair Display', serif; */
     padding: 4vh 0 1vh 0;
 }
 
-.name {
-    font-family: 'Comfortaa', cursive;
-}
-
-.avatar {
-    width: 70%;
-}
-
-.heading {
+.hello {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
+    font-size: 12rem;
 }
 
+.desc {
+    margin: auto;
+    font-size: 2rem;
+    width: 80%;
+}
 
-/* 
-#title {
-    background-image: url("images/japan0.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  } */
+@media (max-width: 500px) {
+    .hello {
+        font-size: 5rem;
+    }
+    .desc {
+        font-size: 0.86rem;
+    }
+}
