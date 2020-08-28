@@ -1,0 +1,56 @@
+/* font-family: 'Comfortaa', cursive;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Noto Serif JP', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif; */
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mono {
+    font-family: 'Major Mono Display', monospace;
+}
+
+.navbar-brand {
+    font-size: 0.9rem;
+}
+
+#title,
+#title .jumbotron {
+    background-image: linear-gradient(to right, floralwhite, ghostwhite);
+}
+
+#title .jumbotron {
+    padding: 5% 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    min-width: 90%;
+    padding: 4vh 0 1vh 0;
+}
+
+.name {
+    font-family: 'Comfortaa', cursive;
+}
+
+.avatar {
+    width: 70%;
+}
+
+.heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+}
+
+
+/* 
+#title {
+    background-image: url("images/japan0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
